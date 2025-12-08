@@ -1,0 +1,151 @@
+.NavBar{
+    padding: 10px 20px;
+    background-color: #F6F6F6;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.Logo{
+    margin: 0px;
+    margin-right: 2rem;
+    color: #4D4D4D;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.875rem;
+    text-shadow: 0 0.8px 0px #363636;
+}
+
+.NavbarList{
+    list-style: none;
+    font-size: 1.15rem;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    height: 3.5rem;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    padding-top: 0.3rem;
+}
+
+.NavbarList li a{
+    margin: 0px 1.9rem;
+    text-decoration: none;
+    color: #4CAF4F;
+    /* text-shadow: 0 0.4px 0px #4D4D4D; */
+}
+
+.NavbarList li a:hover{
+    color: #378d3a;
+}
+
+.SignedOutBtns{
+    display: flex;
+    flex-grow: 5;
+    justify-content: end;
+    align-items: center;
+}
+
+.SignedOutBtns a{
+    margin: 0px 30px;
+    text-decoration: none;
+    color: #4D4D4D;
+}
+
+.SignedOutBtns button{
+    /* padding: 15px 30px; */
+    margin: 0px 0px 0px 10px;
+}
+
+.Register{
+    background-color: #4CAF4F;
+    color: #F6F6F6;
+    border-radius: 4px;
+    font-size: medium;
+    border: 0px;
+    width: 150px;
+    height: 50px;
+    max-width: 150px;
+    max-height: 50px;
+}
+
+.Login{
+    background-color: #F6F6F6;
+    border-color: #4CAF4F;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 4px;
+    color: #4CAF4F;
+    width: 150px;
+    height: 50px;
+    max-width: 150px;
+    max-height: 50px;
+}
+
+.Register:hover{
+    background-color: #1d611f;
+    color: #F6F6F6;
+    border-radius: 4px;
+    font-size: medium;
+    border: 0px;
+}
+
+.Login:hover{
+    background-color: #4CAF4F;
+    border-color: #4CAF4F;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 4px;
+    color: #F6F6F6;
+}
+
+.SignedInBtns{
+    display: flex;
+    flex-grow: 5;
+    justify-content: end;
+    align-items: center;
+}
+
+.Profile{
+    padding: 20px;
+    margin-right: 10px;
+    background-color: #4CAF4F;
+    border: #257c28 1px solid;
+    box-shadow: 0px 0px 2px #257c28 ;
+    border-radius: 50%;
+    width: 3.5rem;
+    height: 3.5rem;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+}
+.Profile h2{
+    margin: 0;
+}
+
+.SignedInBtns a{
+    padding: 0px;
+    border-radius: 100%;
+    color: #F6F6F6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.SignOut {
+    margin: 0px 1.1rem;
+    color: #e74c3c; /* Bright red */
+    font-weight: 700;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.SignOut:hover {
+    color: #c0392b; /* Darker red on hover */
+}

@@ -1,0 +1,152 @@
+.FirstSection{
+    height: 100vh;
+    background-color: #F5F7FA;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.FirstSectText{
+    font-size: 60px;
+    font-weight: bold;
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.Img1{
+    max-width: 30%;
+}
+
+.SecondSection{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0px;
+}
+
+.SecondSectionText1{
+    font-size: 40px;
+    max-width: 35%;
+    text-align: center;
+    font-weight:500;
+}
+
+.SecondSectionText2{
+    display: flex;
+    font-size: large;
+    margin-top: 90px;
+    color: #4D4D4D;
+}
+
+.SecondSectionText2 h3{
+    margin: 0px 70px;
+    max-width: 200px;
+    text-align: center;
+}
+
+.ThirdSection{
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img2{
+    width: 30%;
+}
+
+.ThirdSecText{
+    max-width: 40%;
+}
+
+.ThirdSecText p{
+    /* max-width: 40%; */
+    font-weight:300;
+}
+
+.ThirdSecText h2{
+    /* max-width: 40%; */
+    font-size: 40px;
+    color:#4CAF4F;
+    text-align: start;
+    font-weight: 600;
+}
+
+.ThirdSecText p{
+    margin-bottom: 2rem;
+}
+
+.LearnMore{
+    background-color: #4CAF4F;
+    color: #F6F6F6;
+    border-radius: 4px;
+    font-size: medium;
+    border: 0px;
+    padding: 0.8rem 0rem;
+    text-decoration: none;
+    width: 9rem;
+    /* max-width: 3rem; */
+}
+
+.LearnMore:hover{
+    background-color: #1d611f;
+    color: #F6F6F6;
+    border-radius: 4px;
+    font-size: medium;
+    border: 0px;
+}
+
+.ForthSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ForthSection h2{
+    font-size: 40px;
+    color:#4CAF4F;
+    font-weight: 600;
+}
+
+.Cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.Card{
+    margin: 0px 10px;
+}
+
+.LastSection{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img3{
+    width: 30%;
+}
+
+.LastSecText{
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* flex-shrink: 5; */
+
+    max-width: 40%;
+}
+
+
+.LastSecText h2{
+    /* max-width: 40%; */
+    font-size: 40px;
+    color: #4D4D4D;
+    margin-bottom: 2rem;
+}
