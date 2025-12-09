@@ -16,7 +16,7 @@ import Tasks from "./components/Tasks/Tasks.jsx";
 import TaskDetails from "./components/TaskDetails/TaskDetails.jsx";
 import Folders from "./components/Folders/Folders.jsx";
 import UpdateTask from "./components/UpdateTask/UpdateTask.jsx";
-import Profile from "./components/Profile.jsx";
+import Profile from "./components/Profile/Profile.jsx";
 import TodoLists from "./components/ToDoLists/TodoLists.jsx";
 
 const router = createBrowserRouter([
@@ -53,3 +53,4 @@ createRoot(document.getElementById("root")).render(
     </Provider>
   </StrictMode>
 );
+ِ
